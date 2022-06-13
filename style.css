@@ -1,0 +1,82 @@
+body { 
+
+    background-color: rgba(3, 95, 44, 0.801);
+    font-family: cursive;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.Basic {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-bottom: 5%;
+
+}
+
+
+.Header {
+    position: inherit;
+    text-align:right;
+    height: 20px;
+    width: 65%;
+    padding: 5px;
+    margin: 8%;
+}
+
+.my-picture { 
+    /*background-color: cornsilk;*/
+    display:flex;
+    float: right;
+    margin: -1%;
+    }
+
+
+.Which-city {
+    display:flex; 
+    float:left;
+    margin:-1%;
+    margin-left: 0%;
+}
+
+.Language {
+    margin-top: 11%;
+
+}
+
+table {
+    width: 500px;
+    margin-left: 0%;
+}
+caption {
+    text-align: left;
+}
+th {
+   text-align: left; 
+}
+
+table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+ th, td {
+   padding: 5px;
+}
+
+.foreign {
+    margin-left: 0%;
+}
+.column {
+    float: left;
+    width: 20%;
+    padding: 60px;
+    display: flex;
+    text-justify: distribute;
+}
+.row::after {
+    content: "";
+    clear:both;
+    display: flex;
+}
+@media (min-width: 390px) 
+
+
